@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Appbud/static/css/main.d2f5e871.chunk.css",
+    "main.js": "/Appbud/static/js/main.0f2fe4b8.chunk.js",
+    "main.js.map": "/Appbud/static/js/main.0f2fe4b8.chunk.js.map",
+    "runtime-main.js": "/Appbud/static/js/runtime-main.dd053451.js",
+    "runtime-main.js.map": "/Appbud/static/js/runtime-main.dd053451.js.map",
+    "static/css/2.c9ab034c.chunk.css": "/Appbud/static/css/2.c9ab034c.chunk.css",
+    "static/js/2.3538aa5a.chunk.js": "/Appbud/static/js/2.3538aa5a.chunk.js",
+    "static/js/2.3538aa5a.chunk.js.map": "/Appbud/static/js/2.3538aa5a.chunk.js.map",
+    "static/js/3.c88f242d.chunk.js": "/Appbud/static/js/3.c88f242d.chunk.js",
+    "static/js/3.c88f242d.chunk.js.map": "/Appbud/static/js/3.c88f242d.chunk.js.map",
+    "index.html": "/Appbud/index.html",
+    "static/css/2.c9ab034c.chunk.css.map": "/Appbud/static/css/2.c9ab034c.chunk.css.map",
+    "static/css/main.d2f5e871.chunk.css.map": "/Appbud/static/css/main.d2f5e871.chunk.css.map",
+    "static/js/2.3538aa5a.chunk.js.LICENSE.txt": "/Appbud/static/js/2.3538aa5a.chunk.js.LICENSE.txt",
+    "static/media/affordable.9efe7592.svg": "/Appbud/static/media/affordable.9efe7592.svg",
+    "static/media/calendar.ea11b10f.svg": "/Appbud/static/media/calendar.ea11b10f.svg",
+    "static/media/construction-excavator.e6227ffa.svg": "/Appbud/static/media/construction-excavator.e6227ffa.svg",
+    "static/media/engineer.5acf3fd9.svg": "/Appbud/static/media/engineer.5acf3fd9.svg",
+    "static/media/fast.ea311bbb.svg": "/Appbud/static/media/fast.ea311bbb.svg",
+    "static/media/Header.css": "/Appbud/static/media/tools_mobile.54cd8cec.jpg",
+    "static/media/proj.79167573.jpg": "/Appbud/static/media/proj.79167573.jpg",
+    "static/media/proj_1.56df5ba8.jpg": "/Appbud/static/media/proj_1.56df5ba8.jpg",
+    "static/media/proj_2.7b94d253.jpg": "/Appbud/static/media/proj_2.7b94d253.jpg",
+    "static/media/tools.1b9f3954.svg": "/Appbud/static/media/tools.1b9f3954.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd053451.js",
+    "static/css/2.c9ab034c.chunk.css",
+    "static/js/2.3538aa5a.chunk.js",
+    "static/css/main.d2f5e871.chunk.css",
+    "static/js/main.0f2fe4b8.chunk.js"
+  ]
+}
