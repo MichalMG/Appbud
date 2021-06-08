@@ -1,0 +1,40 @@
+.project-container,
+.project__img-container,
+.project__text-container {
+  visibility: hidden;
+}
+
+
+.projectHandler {
+  transform: scale(0) translate(0, 0);
+}
+
+.showElement {
+  animation: scaleElement .7s linear forwards;
+}
+
+.projectHandler>div>div {
+  overflow: hidden;
+}
+
+
+
+.projectHandler>div>div>img {
+  transform: scale(1);
+  transition: .2s linear;
+}
+
+.projectHandler:hover>div>div>img {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+@keyframes scaleElement {
+  0% {
+    transform: scale(0) translate(0, 0);
+  }
+
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
