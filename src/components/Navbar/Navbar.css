@@ -1,0 +1,82 @@
+.companyLogo {
+  width: 55px;
+  height: auto;
+  transition: 1s ease;
+}
+
+.companyLogo.active {
+  width: 50px;
+  height: auto;
+}
+
+@media (min-width: 340px) {
+  .companyLogo {
+    width: 65px;
+  }
+
+  .companyLogo.active {
+    width: 55px;
+  }
+}
+
+@media (min-width: 768px) {
+  .companyLogo {
+    width: 70px;
+  }
+
+  .companyLogo.active {
+    width: 60px;
+  }
+}
+
+
+.mainNav {
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  border-bottom: 2px solid transparent;
+  transition: 1s ease;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mainNav a.active,
+.mainNav a:hover {
+  color: var(--bs-warning) !important;
+}
+
+.mainNav.active {
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid var(--bs-orange);
+  padding: 3px 0;
+
+}
+
+.mainNav li:nth-last-of-type(1)>a {
+  transition: 1s ease;
+  color: rgba(255, 255, 255, .55);
+}
+
+.mainNav li:nth-last-of-type(1)>a.active,
+.mainNav li:nth-last-of-type(1)>a:hover {
+  background-color: transparent;
+}
+
+@media (max-width: 991.98px) {
+  .mainNav {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom: 2px solid var(--bs-orange);
+  }
+
+  .mainNav li:nth-last-of-type(1)>a {
+    padding: 3px 10px;
+  }
+}
+
+
+.mainNav.active li:nth-last-of-type(1)>a {
+  padding: 3px 10px;
+  transition: 1s ease;
+}

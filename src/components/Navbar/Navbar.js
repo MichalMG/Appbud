@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
-import './Navigation.css';
+import './Navbar.css';
 import companyLogo from '../../assets/logo_.png';
 
 
@@ -76,7 +76,7 @@ export default function Navigation() {
                 <NavLink to="/offers" className="nav-link" aria-current="page">Oferta</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/contact" className="nav-link text-white btn-outline-warning btn" aria-current="page">Kontakt</NavLink>
+                <NavLink to="/contact" className="btn-outline-warning btn" aria-current="page">Kontakt</NavLink>
               </li>
             </ul>
           </div>

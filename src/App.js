@@ -5,7 +5,6 @@ import Home from './Pages/Home/Home';
 import ProjectHome from './Pages/Projects/Projects';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 import './components/Header/Header.css';
 import '../node_modules/bootstrap/js/dist/collapse';
 import Company from './Pages/Company/Company';

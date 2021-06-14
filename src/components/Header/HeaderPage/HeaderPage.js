@@ -1,5 +1,5 @@
 import '../Header.css';
-import Navigation from '../../Navigation/Navigation';
+import Navbar from '../../Navbar/Navbar.js';
 
 
 export default function HeaderPage() {
@@ -7,7 +7,7 @@ export default function HeaderPage() {
   return (
     <>
       <div className="position-relative overflow-hidden mb-4" style={{ height: '37vh', width: '100%', minHeight: '300px' }}>
-        <Navigation />
+        <Navbar />
         <div className="header-page__background "></div>
         <div className="header-page__background-dark d-flex justify-content-center align-items-center">
         </div>

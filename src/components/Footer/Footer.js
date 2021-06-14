@@ -16,7 +16,7 @@ export default function Footer() {
               <p className="card-title mb-4">Firma budowlana</p>
               <p className="text-muted">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis soluta asperiores hic, ut illum beatae vitae consectetur excepturi pariatur, aliquam rerum? Voluptatem ut eligendi unde minus eum recusandae voluptas natus.
-            </p>
+              </p>
             </div>
           </div>
 
@@ -25,9 +25,10 @@ export default function Footer() {
             <div className="card-body ">
               <p className="card-title mb-4">Dane firmy:</p>
               <div className="card-text text-warning">
-                <p>Nazwa firmy</p>
-                <p>Ulica 15</p>
-                <p>00-000 Miasto</p>
+                <p className="mb-0">Nazwa firmy</p>
+                <p className="mb-0">ulica Przykładowa 15</p>
+                <p className="mb-0">00-000 Warszawa</p>
+                <p>NIP: 000000000</p>
               </div>
             </div>
           </div>
@@ -43,7 +44,7 @@ export default function Footer() {
                 </p>
                 <p className="card-text d-flex justify-content-start align-items-center">
                   <img src={mailIco} alt="" style={{ width: '26px' }} />
-                  <span className="ms-3 text-warning">lorem@lorem.lorem</span>
+                  <span className="ms-3 text-warning">biuro@nazwafirmy.pl</span>
                 </p>
               </div>
             </div>
@@ -54,8 +55,7 @@ export default function Footer() {
       </div>
 
       <div className="card-footer text-muted text-center" style={{ backgroundColor: "rgb(33,33,33)" }}>
-        <span className="me-2">Copyright by</span>
-        <a className="link-secondary fw-bold" href="https://michalmg.github.io/Portfolio/#/" >MG</a>
+        <p className="m-0 p-0">Copyright  <a className="link-success text-decoration-none" href="https://michalmg.github.io/Portfolio/">MG</a></p>
       </div>
     </footer>
   )

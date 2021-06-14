@@ -1,4 +1,4 @@
-import Navigation from '../../Navigation/Navigation';
+import Navbar from '../../Navbar/Navbar.js';
 import LinkHandler from '../../../helpers/LinkHandler.js';
 
 
@@ -8,7 +8,7 @@ export default function HeaderHome() {
     <>
       <div className="position-relative overflow-hidden mb-4" style={{ height: '50vh', width: '100%', minHeight: '300px' }}>
 
-        <Navigation />
+        <Navbar />
 
         <div className="header-home__background "></div>
         <div className="header-home__background-dark d-flex justify-content-center align-items-center">
@@ -16,7 +16,7 @@ export default function HeaderHome() {
             <div>
               <h5 className="text-white text-center">
                 Zapraszamy do zapoznania się z naszą ofertą
-            </h5>
+              </h5>
             </div>
             <div className="mt-3">
               <LinkHandler to="/projects" title="Realizacje" color="warning" margin="me-3" />

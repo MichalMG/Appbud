@@ -24,7 +24,7 @@ const Contact = () => {
     },
     surname: {
       value: "",
-      rules: ['required'],
+      rules: [],
       errorMessage: "",
       valid: false
     },
@@ -42,7 +42,7 @@ const Contact = () => {
     },
     text: {
       value: "",
-      rules: ['required', { rule: 'length', length: 10 }],
+      rules: ['required', { rule: 'length', length: 5 }],
       errorMessage: "",
       valid: false
     },

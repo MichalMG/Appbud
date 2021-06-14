@@ -8,6 +8,8 @@ export default function Company() {
   const setTitle = useWebTitle();
   setTitle("O firmie");
 
+
+
   return (
     <>
       <HeaderPage />
@@ -24,22 +26,22 @@ export default function Company() {
         </div>
         <div className="row mt-4">
           <div className="col-4 mb-4">
-            <img src="https://placeimg.com/640/480/arch" alt="" style={{ width: '100%', height: 'auto' }} />
+            <img src={`https://placeimg.com/640/480/tech/${Math.floor(Math.random() * 150)}`} alt="" style={{ width: '100%', height: 'auto' }} />
           </div>
           <div className="col-4 mb-4">
-            <img src="https://placeimg.com/640/480/any" alt="" style={{ width: '100%', height: 'auto' }} />
+            <img src={`https://placeimg.com/640/480/tech/${Math.floor(Math.random() * 150)}`} alt="" style={{ width: '100%', height: 'auto' }} />
           </div>
           <div className="col-4 mb-4">
-            <img src="https://placeimg.com/640/480/tech" alt="" style={{ width: '100%', height: 'auto' }} />
+            <img src={`https://placeimg.com/640/480/tech/${Math.floor(Math.random() * 150)}`} alt="" style={{ width: '100%', height: 'auto' }} />
           </div>
           <div className="col-4 mb-4">
-            <img src="https://placeimg.com/640/480/tech/grayscale" alt="" style={{ width: '100%', height: 'auto' }} />
+            <img src={`https://placeimg.com/640/480/tech/${Math.floor(Math.random() * 150)}`} alt="" style={{ width: '100%', height: 'auto' }} />
           </div>
           <div className="col-4 mb-4">
-            <img src="https://placeimg.com/640/480/nature" alt="" style={{ width: '100%', height: 'auto' }} />
+            <img src={`https://placeimg.com/640/480/tech/${Math.floor(Math.random() * 150)}`} alt="" style={{ width: '100%', height: 'auto' }} />
           </div>
           <div className="col-4 mb-4">
-            <img src="https://placeimg.com/640/480/grayscale" alt="" style={{ width: '100%', height: 'auto' }} />
+            <img src={`https://placeimg.com/640/480/tech/${Math.floor(Math.random() * 150)}`} alt="" style={{ width: '100%', height: 'auto' }} />
           </div>
         </div>
       </Section >

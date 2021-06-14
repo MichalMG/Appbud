@@ -96,14 +96,16 @@ export default function Projects() {
 
     gsapHandler(projectsContainerElements[0], 0);
 
-    for (let i = 1; i < projectsContainerElements.length; i++) {
-      const projectContainer = projectsContainerElements[i];
-      document.addEventListener("scroll", () => {
-        if (window.scrollY > (projectsContainerElements[i - 1].offsetTop - 100)) {
-          return gsapHandler(projectContainer, i);
-        }
-      })
-    }
+    setTimeout(() => {
+      for (let i = 1; i < projectsContainerElements.length; i++) {
+        const projectContainer = projectsContainerElements[i];
+        document.addEventListener("scroll", () => {
+          if (window.scrollY > (projectsContainerElements[i - 1].offsetTop - 100)) {
+            return gsapHandler(projectContainer, i);
+          }
+        })
+      }
+    }, 500)
 
   })
 

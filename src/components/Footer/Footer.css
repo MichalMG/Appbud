@@ -5,6 +5,6 @@
 
 @media (min-width: 768px) {
   .borderStartFooter {
-    border-left: 1px solid #6c757d;
+    border-left: 1px solid var(--bs-gray);
   }
 }

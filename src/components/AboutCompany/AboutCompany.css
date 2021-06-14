@@ -1,8 +1,8 @@
 .logoAbout {
   width: 150px;
   height: 150px;
-  border: 3px solid #F28705;
-  background-color: #270140;
+  border: 3px solid var(--bs-orange);
+  background-color: black;
 }
 
 @media(min-width: 800px) {
